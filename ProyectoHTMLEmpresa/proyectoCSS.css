@@ -1,0 +1,106 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+header {
+    background-color: #333;
+    color: burlywood;
+    padding: 2%;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 2%;
+}
+
+nav ul li a {
+    color: burlywood;
+}
+
+table {
+    width: 80%;
+    margin: 5% auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1% solid black;
+    padding: 2%;
+    text-align: left;
+}
+
+th {
+    background-color:  #444;
+    color:burlywood;
+}
+
+.carrusel {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.slide {
+    text-align: center;
+    margin: 0 3%;
+}
+
+.slide img {
+    width: 80%;
+    height: 50%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+section {
+    background-color: beige;
+}
+
+section img {
+    text-align: center;
+}
+
+.form-container {
+    width: 90%;
+    margin: 5% auto;
+    background: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid beige;
+}
+
+p {
+    margin-top: 15px;
+}
+
+a {
+    color: green;
+}
